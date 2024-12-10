@@ -8,4 +8,4 @@ def client():
 
 def test_home(client):
     response = client.get('/')
-    assert response.data == b"Hello, DevOps World!"
+    assert response.data == b"Hello,Welcome to the DevOps World Dhanushka"
